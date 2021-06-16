@@ -28,7 +28,7 @@ a.main-button {
 	padding: 0px 25px;
 	border: none;
 	margin-left: 10px;
-	background-color: #00bcd4;
+	background-color: #3d3e3f;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -37,7 +37,7 @@ a.main-button {
 	transition: all 0.5s;
 }
 a.main-button:hover {
-	background-color: #00a4b9;
+	background-color: #444546;
 }
 a.gradient-button {
 	outline: none;
@@ -48,8 +48,8 @@ a.gradient-button {
 	padding: 0px 25px;
 	border: none;
 	margin-left: 10px;
-	background: rgb(114,2,187);
-    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+	background: rgb(85, 84, 85);
+    background: linear-gradient(145deg, rgb(114, 114, 114) 0%, rgb(42, 42, 43) 100%);
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -58,14 +58,14 @@ a.gradient-button {
 	transition: all 0.5s;
 }
 a.gradient-button:hover {
-	background: rgb(114,2,187);
-    background: linear-gradient(145deg, rgba(50,100,245,1) 0%, rgba(114,2,187,1) 100%);
+	background: rgb(85, 84, 85);
+    background: linear-gradient(145deg, rgb(114, 114, 114) 0%, rgb(42, 42, 43) 100%);
 }
 .section-heading {
 	margin-bottom: 80px;
 }
 .section-heading span {
-	color: #00bcd4;
+	color: #2c2c2c;
 	font-size: 15px;
 	font-weight: 500;
 	letter-spacing: 0.5px;
@@ -118,7 +118,7 @@ a.gradient-button:hover {
 }
 #preloader {
   overflow: hidden;
-  background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+  background: linear-gradient(145deg, rgb(114, 114, 114) 0%, rgb(42, 42, 43) 100%);
   left: 0;
   right: 0;
   top: 0;
@@ -223,25 +223,25 @@ header {
 .background-header .functional-buttons	ul li:first-child a {
 	display: inline-block;
 	background-color: transparent;
-	border: 2px solid #00bcd4;
+	border: 2px solid #464646;
 	text-transform: uppercase;
 	font-size: 13px;
-	color: #00bcd4;
+	color: #292929;
 	padding: 6px 20px;
 	letter-spacing: 0.5px;
 	transition: all 0.5s;
 }
 .background-header .functional-buttons	ul li:first-child a:hover {
 	color: #fff;
-	background-color: #00bcd4;
-	border-color: #00bcd4;
+	background-color: #4a4b4b;
+	border-color: #7e7e7e;
 }
 .background-header .navbar-nav .nav-link:hover,
 .background-header .navbar-nav .active>.nav-link,
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #00bcd4!important;
+	color: #272727!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -285,7 +285,7 @@ header {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #00bcd4;
+	color: #232424;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -302,7 +302,7 @@ header {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #00bcd4;
+	color: #383838;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -330,13 +330,13 @@ header {
 	transition: all 0.5s;
 }
 .functional-buttons	ul li:first-child a:hover {
-	color: #00bcd4;
+	color: #414141;
 	background-color: #fff;
 }
 .functional-buttons	ul li:last-child a {
 	display: inline-block;
-	background-color: #00bcd4;
-	border: 2px solid #00bcd4;
+	background-color: #404041;
+	border: 2px solid #4d4d4d;
 	text-transform: uppercase;
 	font-size: 13px;
 	color: #fff;
@@ -345,8 +345,8 @@ header {
 	transition: all 0.5s;
 }
 .functional-buttons	ul li:last-child a:hover {
-	background-color: #00a4b9;
-	border-color: #00a4b9;
+	background-color: #464646;
+	border-color: #8a8a8a;
 }
 
 /* Banner Style */
@@ -401,7 +401,7 @@ header {
 	padding: 0px 20px;
 	border: none;
 	margin-left: 10px;
-	background-color: #00bcd4;
+	background-color: #646464;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -411,7 +411,7 @@ header {
 	margin-bottom: 30px;
 }
 .banner #search-section button:hover {
-	background-color: #00a4b9;
+	background-color: #616161;
 }
 #search-section ul {
 	padding: 0;
@@ -502,7 +502,7 @@ header {
 }
 .services-section .service-item i {
 	color: #fff;
-	background-color: #00bcd4;
+	background-color: #333333;
 	display: inline-block;
 	width: 100px;
 	height: 100px;
@@ -558,11 +558,11 @@ header {
 	margin-bottom: 45px;
 }
 .pricing-item .price-gradient {
-	background: rgb(114,2,187);
-    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+	background: rgb(58, 58, 58);
+    background: linear-gradient(145deg, rgb(114, 114, 114) 0%, rgb(42, 42, 43) 100%);
 }
 .pricing-item .price {
-	background-color: #00bcd4;
+	background-color: #444444;
 	width: 100%;
 	padding: 30px 0px;
 	margin-bottom: 35px;
@@ -603,7 +603,7 @@ header {
 .pricing-item ul li i {
 	font-size: 14px;
 	margin-right: 8px;
-	color: #491bb1;
+	color: #303030;
 }
 .pricing-item ul li:last-child {
 	margin-bottom: 40px;
@@ -676,8 +676,8 @@ header {
 	text-align: center;
 	line-height: 60px;
 	color: #fff;
-	background: rgb(114,2,187);
-    background: linear-gradient(145deg, rgba(114,2,187,1) 0%, rgba(50,100,245,1) 100%);
+	background: rgb(59, 59, 59);
+    background: linear-gradient(145deg, rgb(114, 114, 114) 0%, rgb(42, 42, 43) 100%);
     border-radius: 50%;
     font-size: 18px;
     margin-bottom: 45px;
@@ -700,7 +700,7 @@ header {
 	display: inline-block;
 	margin-top: 8px;
 	font-size: 15px;
-	color: #00bcd4;
+	color: #363636;
 }
 .owl-testimonials .owl-dots .owl-dot {
   border-radius: 3px;
@@ -720,13 +720,13 @@ header {
     height: 8px;
     border-radius: 50%;
     margin: 0 4px;
-    background-color: #7bd9e5;
+    background-color: #818181;
 }
 .owl-testimonials .owl-dots .owl-dot:focus {
     outline: none
 }
 .owl-testimonials .owl-dots .owl-dot.active {
-    background-color: #00bcd4;
+    background-color: #919191;
 }
 
 
@@ -892,7 +892,7 @@ footer .sub-footer a {
 	display: inline-block;
 	margin-top: 8px;
 	font-size: 15px;
-	color: #00bcd4;
+	color: #535353;
 }
 
 
@@ -966,7 +966,7 @@ footer .sub-footer a {
 	transition: all 0.5s;
 }
 .contact-form button:hover {
-	background-color: #00a4b9;
+	background-color: #414141;
 }
 .contact-us .right-content ul {
 	padding: 0;
@@ -990,7 +990,7 @@ footer .sub-footer a {
 	display: inline-block;
 	text-align: center;
 	line-height: 60px;
-	background-color: #00bcd4;
+	background-color: #585858;
 	border-radius: 50%;
 	color: #fff;
 	margin-right: 15px;
@@ -1087,7 +1087,7 @@ footer .sub-footer a {
 		color: #1e1e1e!important;
 	}
 	.navbar .navbar-nav .active>.nav-link {
-		color: #00bcd4!important;
+		color: #3f3f3f!important;
 	}
 	.about-us .left-image {
 		margin-bottom: 30px;
